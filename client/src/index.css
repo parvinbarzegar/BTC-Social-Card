@@ -11,3 +11,72 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.title-font{
+  font-family: 'Times New Roman', Times, serif;
+  color:black;
+}
+.user-profile-text{
+  text-align: left;
+  
+}
+
+.user-profile-icon{
+  font-size: 18px;
+}
+i{
+  color:black;
+}
+.company-logo{
+  width: 64px;
+  height: 64px;
+}
+.user-img{
+  vertical-align: middle;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+.card{
+  border-radius: 25px;
+}
+
+.new_tab{
+  font-size: 8px;
+}
+
+@media only screen and (min-width: 800px) {
+  .user-profile-background{
+    background-image: linear-gradient(to bottom right, pink, rgb(241, 201, 125));
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 5%;
+  }
+}
+  @media only screen and  (max-width: 799px) {
+    .user-profile-background{
+      background-image: linear-gradient(to bottom right, pink, rgb(241, 201, 125));
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      text-align: center;
+      vertical-align: bottom;
+    }
+   
+}
+
+.custom_btn{
+ color: linear-gradient(to bottom right, pink, rgb(241, 201, 125));
+ font-size: medium;
+ cursor: pointer;
+}
+.menu{
+  position:fixed ;
+  z-index: 100;
+  border-bottom: orangered solid 2px;
+  
+}
+
+.container{
+  padding-top: 100px;
+}
