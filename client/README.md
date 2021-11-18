@@ -1,4 +1,4 @@
-- I have used the following libraries:
+## I have used the following libraries:
     Ant Design: desiging the user interface,
     Axios: loading data from API,
     Toatify: showing notifications to users,
